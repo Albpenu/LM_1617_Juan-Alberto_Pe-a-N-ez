@@ -1,2 +1,2 @@
-# LM_1617_Juan-Alberto_Pe-a-N-ez
-Repositorio de Lenguaje de Marcas
+# LM_1617. Juan Alberto Peña Núñez
+Ejercicios de Lenguaje de Marcas
