@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<!DOCTYPE games[	
+<!ELEMENT games (game)*>	
+<!ELEMENT game (home-team, visiting-team, scores, yellow-cards, red-cards)>	
+<!ELEMENT home-team (#PCDATA)>	
+<!ELEMENT visiting-team (#PCDATA)>	
+<!ELEMENT scores (score)*>	
+<!ELEMENT yellow-cards (player)*>	
+<!ELEMENT red-cards (player)*>	
+<!ELEMENT score (player)*>	
+<!ELEMENT player (#PCDATA)>	
+<!ATTLIST game 
+    score CDATA #REQUIRED>	
+<!ATTLIST score 
+    time CDATA #REQUIRED>	
+<!ATTLIST score 
+    type (field|penalty) #IMPLIED>	
+]>
+<games>	
+    <game score="2-1">	
+        <home-team>Real Madrid</home-team>	
+	 	<visiting-team>Barcelona</visiting-team>	
+	 	<scores>	
+            <score time="22">	
+                <player>Lionel Messi</player>	
+            </score>
+            <score time="48">	
+                <player>Cristiano Ronaldo</player>	
+            </score>
+            <score time="89" type="penalty">	
+                <player>Sergio Ramos</player>	
+            </score>	
+        </scores>	
+        <yellow-cards>	
+            <player>Pepe</player>		
+        </yellow-cards>	
+        <red-cards>	
+            <player>Gerard Piqué</player>	
+        </red-cards>	
+    </game>	
+</games>
