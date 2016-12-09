@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <style type="text/css">
+        table {
+            border-style: solid;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table width="50%" align="center" border="0" cellspacing="0" cellpadding="10" text-align="left">
+            <tr bgcolor="#02e9ff">
+                <td width="15%">
+                    <b>Event Planner</b>
+                </td>
+
+                <td colspan="4">
+
+                    <select>
+                        <option>More Actions</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Event Name
+                </th>
+                <td>
+                    <input type="text" name="nombre" />
+                </td>
+                <th valign="top">
+                    Requeriments
+                </th>
+                <td>
+                    <input type="checkbox" />Staffing
+                    <br/>
+                    <input type="checkbox" />Catering
+                    <br/>
+                    <input type="checkbox" />Security
+                </td>
+            </tr>
+
+            <tr>
+                <th><sub>
+                Event Coordinator</sub>
+                </th>
+                <td>
+                    <input type="text" name="coordinador" />
+                </td>
+                <th>
+                    Event Start Date
+                </th>
+                <td>
+                    <input type="datetime-local" name="finicio" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Email
+                </th>
+                <td>
+                    <input type="email" name="email" />
+                </td>
+                <th>
+                    Event End Date
+                </th>
+                <td>
+                    <input type="datetime-local" name="ffin" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Event Type
+                </th>
+                <td>
+                    <select>
+                        <option>Concert</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </td>
+                <th>
+                    Location
+                </th>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Total Members
+                </th>
+                <td>
+                    <select>
+                        <option>-Select-</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </td>
+                <th>
+                    City
+                </th>
+                <td>
+                    <input type="text" name="ciudad" />
+                </td>
+            </tr>
+
+            <tr>
+                <th><sub>
+                Event Description</sub>
+                </th>
+                <td>
+                    <textarea></textarea>
+                </td>
+                <th>
+                    State
+                </th>
+                <td>
+                    <select style="width:200px">
+                        <option>-Select-</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+            <br/>
+            <tr>
+                <th><sub>
+                Does your program <br/>
+                involve any type of <br/>
+                outside activity?</sub>
+                </th>
+                <td>
+                    <input type="radio" name="opcion" value="si" />Yes
+                    <br/>
+                    <input type="radio" name="opcion" value="no" />No
+                </td>
+                <th>
+                    Country
+                </th>
+                <td>
+                    <select style="width:200px">
+                        <option>-Select-</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th text-align="left">
+                    Cost Per Person
+                </th>
+                <td>
+                    <input type="number" name="coste" /> <font color="grey">USD</font>
+                </td>
+                <th>
+                    ATTACH
+                    <br/>DETAILED
+                    <br/>ITINERARY
+                </th>
+                <td>
+                    <input type="search" name="buscar">
+                    <input type="submit" name="enviar" value="Browse..." />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <form>
+                        <input type="submit" name="enviar" value="Submit" />
+                        <input type="reset" name="borrar" value="Reset" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
