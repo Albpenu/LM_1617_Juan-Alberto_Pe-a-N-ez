@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE subjects>
+
+<cookbook>
+   
+    <recipe name="World's Best Lasagna">
+       
+        <description>"It is a dish that does not leave you hungry! Hahaha. It takes a little work, but it is worth it."</description>
+        
+        <ingredients>
+           
+            <name_and_quantity>1 pound sweet Italian sausage
+            </name_and_quantity>
+            
+            <name_and_quantity>3/4 pound lean ground beef
+            </name_and_quantity>
+            
+            <name_and_quantity>1/2 cup minced onion
+            </name_and_quantity>
+            
+            <name_and_quantity>2 cloves garlic, crushed
+            </name_and_quantity>
+            
+            <name_and_quantity>1 (28 ounce) can crushed tomatoes
+            </name_and_quantity>
+            
+            <name_and_quantity>2 (6 ounce) cans tomato paste
+            </name_and_quantity>
+            
+            <name_and_quantity>2 (6.5 ounce) cans canned tomato sauce
+            </name_and_quantity>
+            
+            <name_and_quantity>1/2 cup water
+            </name_and_quantity>
+            
+            <name_and_quantity>2 tablespoons white sugar
+            </name_and_quantity>
+            
+            <name_and_quantity>1 1/2 teaspoons dried basil leaves
+            </name_and_quantity>
+            
+            <name_and_quantity>1/2 teaspoon fennel seeds
+            </name_and_quantity>
+            
+            <name_and_quantity>1 teaspoon Italian seasoning
+            </name_and_quantity>
+            
+            <name_and_quantity>1 tablespoon salt
+            </name_and_quantity>
+            
+            <name_and_quantity>1/4 teaspoon ground black pepper
+            </name_and_quantity>
+            
+            <name_and_quantity>4 tablespoons chopped fresh parsley
+            </name_and_quantity>
+            
+            <name_and_quantity>12 lasagna noodles
+            </name_and_quantity>
+            
+            <name_and_quantity>16 ounces ricotta cheese
+            </name_and_quantity>
+            
+            <name_and_quantity>1 egg
+            </name_and_quantity>
+            
+            <name_and_quantity>1/2 teaspoon salt
+            </name_and_quantity>
+            
+            <name_and_quantity>3/4 pound mozzarella cheese, sliced
+            </name_and_quantity>
+            
+            <name_and_quantity>3/4 cup grated Parmesan cheese
+            </name_and_quantity>
+            
+        </ingredients>
+        
+        <times>
+           
+            <preparation>30m</preparation>
+            
+            <cook>2h 30m</cook>
+            
+            <ready>3h</ready>
+            
+        </times>
+        
+        <steps>
+           
+            <first>In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 tablespoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.</first>
+            
+            <second>Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.</second>
+            
+            <third>Preheat oven to 375 degrees F (190 degrees C).</third>
+            
+            <fourth>To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13 inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.</fourth>
+            
+            <fifth>Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving.</fifth>
+            
+        </steps>
+        
+    </recipe>
+
+    <recipe name="Vegetable Beef Soup">
+       
+        <description>"The perfect cold-weather soup: Easy, and so tasty. My family has served this on Christmas night for years. It doubles easily and freezes well. For a meatier soup, double the ground beef."</description>
+        
+        <ingredients>
+           
+            <name_and_quantity>1/2 pound ground beef
+            </name_and_quantity>
+            
+            <name_and_quantity>1 (14.5 ounce) can stewed tomatoes
+            </name_and_quantity>
+            
+            <name_and_quantity>1 (8 ounce) can tomato sauce
+            </name_and_quantity>
+            
+            <name_and_quantity>2 cups water
+            </name_and_quantity>
+            
+            <name_and_quantity>1 (10 ounce) package frozen mixed vegetables
+            </name_and_quantity>
+            
+            <name_and_quantity>1/4 cup dry onion soup mix
+            </name_and_quantity>
+            
+            <name_and_quantity>1 teaspoon white sugar
+            </name_and_quantity>
+            
+        </ingredients>
+        
+        <times>
+            <preparation>1h</preparation>
+            
+            <cook>25m</cook>
+            
+            <ready>1h 25m</ready>
+            
+        </times>
+        
+        <steps>
+            <first>In a large pot over medium high heat, saute the ground beef for about 5 minutes, or until browned. Drain off excess fat.</first>
+            
+            <second>Add the tomatoes, sauce, water, vegetables, soup mix and sugar. Bring to a boil and reduce heat to low. Cover and simmer for 20 minutes.</second>
+            
+        </steps>
+        
+    </recipe>
+    
+</cookbook>

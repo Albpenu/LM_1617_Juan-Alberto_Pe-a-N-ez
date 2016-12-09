@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE route>
+
+<metropolitan_bus_route>
+   
+    <name>TOUR MONUMENTAL</name>
+    
+    <timetable>bus number 05 arrives every 20 minutes, and the number 40 every 25; from 8.30a.m. until 9:30p.m</timetable>
+    
+    <stops>
+        <location>Rep. Argentina (Virgen de Villadiego)</location>
+        <stop_number>198</stop_number>
+        <bus_numbers>05,40</bus_numbers>
+    </stops>
+    
+</metropolitan_bus_route>

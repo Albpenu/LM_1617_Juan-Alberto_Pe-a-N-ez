@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE subjects>
+
+<grade_book>
+   
+    <subject name="GBD">
+       
+        <student>
+            <firstname>Juan</firstname>
+            <lastnames>Ramírez García</lastnames>
+            <address>Av. República Argentina, 12A, 3ºC</address>
+            <email>jrg@gmail.com</email>
+            <telephone>678945671</telephone>
+            <mark>7</mark>
+        </student>
+
+        <student>
+            <firstname>Raúl</firstname>
+            <lastnames>García Parejo</lastnames>
+            <address>C/ Santa Gracia, nº 4</address>
+            <email>rgp@yahoo.com</email>
+            <telephone>345678903</telephone>
+            <mark>5</mark>
+        </student>
+
+        <student>
+            <firstname>Manuel</firstname>
+            <lastnames>Pérez Ramírez</lastnames>
+            <address>C/ Cervantes, nº 13</address>
+            <email>mpr@gmail.com</email>
+            <telephone>678945631</telephone>
+            <mark>9</mark>
+        </student>
+
+        <student>
+            <firstname>Roberto</firstname>
+            <lastnames>Sánchez Díaz</lastnames>
+            <address>C/ Severiana Fernández, nº 63</address>
+            <email>rsd@hotmail.com</email>
+            <telephone>345679842</telephone>
+            <mark>6</mark>
+        </student>
+
+        <student>
+            <firstname>José Luis</firstname>
+            <lastnames>Jiménez Sánchez</lastnames>
+            <address>Av. Colón, nº 16</address>
+            <email>jljs@hotmail.com</email>
+            <telephone>956784567</telephone>
+            <mark>5</mark>
+        </student>
+
+        <student>
+            <firstname>Francisco</firstname>
+            <lastnames>Delgado Martínez</lastnames>
+            <address>C/ Margarita, nº 35</address>
+            <email>fdm@hotmail.com</email>
+            <telephone>765439871</telephone>
+            <mark>10</mark>
+        </student>
+
+        <student>
+            <firstname>Carlos</firstname>
+            <lastnames>García Aguado</lastnames>
+            <address>C/ Velasco, nº 9</address>
+            <email>cga@gmail.com</email>
+            <telephone>645312322</telephone>
+            <mark>10</mark>
+        </student>
+
+        <student>
+            <firstname>Lucas</firstname>
+            <lastnames>Martínez Bella</lastnames>
+            <address>Av. Conquistadores, 11B, 5ºA</address>
+            <email>lmb@gmail.com</email>
+            <telephone>123987654</telephone>
+            <mark>4</mark>
+        </student>
+
+        <student>
+            <firstname>Marcos</firstname>
+            <lastnames>Pintor Aymerich</lastnames>
+            <address>C/ Bogotá, nº 4</address>
+            <email>mpa@gmail.com</email>
+            <telephone>456789132</telephone>
+            <mark>9</mark>
+        </student>
+
+        <student>
+            <firstname>Felipe</firstname>
+            <lastnames>Rosas Velázquez</lastnames>
+            <address>Av. Puerto Príncipes, 7A, 1ºD</address>
+            <email>frv@gmail.com</email>
+            <telephone>633245697</telephone>
+            <mark>7</mark>
+        </student>
+    </subject>
+    
+    <subject name="LM">
+        <student>
+            <firstname>Juan</firstname>
+            <lastnames>Ramírez García</lastnames>
+            <address>Av. República Argentina, 12A, 3ºC</address>
+            <email>jrg@gmail.com</email>
+            <telephone>678945671</telephone>
+            <mark>5</mark>
+        </student>
+
+        <student>
+            <firstname>Raúl</firstname>
+            <lastnames>García Parejo</lastnames>
+            <address>C/ Santa Gracia, nº 4</address>
+            <email>rgp@yahoo.com</email>
+            <telephone>345678903</telephone>
+            <mark>7</mark>
+        </student>
+
+        <student>
+            <firstname>Manuel</firstname>
+            <lastnames>Pérez Ramírez</lastnames>
+            <address>C/ Cervantes, nº 13</address>
+            <email>mpr@gmail.com</email>
+            <telephone>678945631</telephone>
+            <mark>10</mark>
+        </student>
+
+        <student>
+            <firstname>Roberto</firstname>
+            <lastnames>Sánchez Díaz</lastnames>
+            <address>C/ Severiana Fernández, nº 63</address>
+            <email>rsd@hotmail.com</email>
+            <telephone>345679842</telephone>
+            <mark>8</mark>
+        </student>
+
+        <student>
+            <firstname>José Luis</firstname>
+            <lastnames>Jiménez Sánchez</lastnames>
+            <address>Av. Colón, nº 16</address>
+            <email>jljs@hotmail.com</email>
+            <telephone>956784567</telephone>
+            <mark>6</mark>
+        </student>
+
+        <student>
+            <firstname>Francisco</firstname>
+            <lastnames>Delgado Martínez</lastnames>
+            <address>C/ Margarita, nº 35</address>
+            <email>fdm@hotmail.com</email>
+            <telephone>765439871</telephone>
+            <mark>5</mark>
+        </student>
+
+        <student>
+            <firstname>Carlos</firstname>
+            <lastnames>García Aguado</lastnames>
+            <address>C/ Velasco, nº 9</address>
+            <email>cga@gmail.com</email>
+            <telephone>645312322</telephone>
+            <mark>10</mark>
+        </student>
+
+        <student>
+            <firstname>Lucas</firstname>
+            <lastnames>Martínez Bella</lastnames>
+            <address>Av. Conquistadores, 11B, 5ºA</address>
+            <email>lmb@gmail.com</email>
+            <telephone>123987654</telephone>
+            <mark>7</mark>
+        </student>
+
+        <student>
+            <firstname>Marcos</firstname>
+            <lastnames>Pintor Aymerich</lastnames>
+            <address>C/ Bogotá, nº 4</address>
+            <email>mpa@gmail.com</email>
+            <telephone>456789132</telephone>
+            <mark>5</mark>
+        </student>
+
+        <student>
+            <firstname>Felipe</firstname>
+            <lastnames>Rosas Velázquez</lastnames>
+            <address>Av. Puerto Príncipes, 7A, 1ºD</address>
+            <email>frv@gmail.com</email>
+            <telephone>633245697</telephone>
+            <mark>4</mark>
+            
+        </student>
+        
+    </subject>
+    
+</grade_book>
