@@ -1,0 +1,38 @@
+
+<nav>
+   <div id="menu">
+        <div id="uno">
+            <a  href="index.html" id="ini" data-toggle="tooltip" data-placement="right" title="Inicio"><div class="option">
+            <img src="rsc/img/notas/Inicio.png" /></div></a>
+            
+        </div>
+        <div id="dos">
+            <a href="#lista" id="catalogo" data-toggle="tooltip" data-placement="top" title="Catálogo"><div class="option">
+            <img src="rsc/img/notas/Cat%C3%A1logo.png" /></div></a>
+        </div>
+        <div id="tres">
+            <div class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="tooltip" data-placement="top" title="Acceso" role="button" aria-haspopup="true" aria-expanded="false" id="acceso"><div class="option"><img src="rsc/img/notas/acceso.png" /></div><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <br/>
+                    <li><a class="opcion" href="#">Usuario: </a>
+                        <input class="usu" type="text" name="usuario" placeholder=";) Escribe aquí tu nombre de usuario..." />
+                    </li>
+                    <p></p>
+                    <li><a class="opcion" href="#">Contraseña: </a>
+                        <input class="contra" type="password" name="contraseña" placeholder=";) Escribe aquí tu contraseña..." />
+                    </li>
+                    <br/>
+                    <li role="separator" class="divider"></li>
+                        <input id="reg" class="btn btn-danger" type="button" name="registrarse" value="Registro" style="width: 100px; float: right;" />
+                        <input id="acc" class="btn btn-success" type="submit" name="acceder" value="Acceder" style="width: 100px; float: right;" />
+                </ul>
+            </div>
+        </div>    
+        <div id="cuatro">
+            <a  href="index.html" id="comunidad" data-toggle="tooltip" title="Comunidad"><div class="option">
+            <img src="rsc/img/notas/orquesta.png"/></div></a>
+        </div>
+    
+    </div>
+</nav>

@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'tinta';
+    src: url('../fonts/tinta.ttf') format('truetype');
+}
+
+body {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'tinta';
+    color: black;
+    background: url("../rsc/img/logo/stainedpaper7.jpg") no-repeat center;
+    background-size: cover;
+    <!--background-color: #D8A651;-->
+}
+
+#menu {
+    float: right;
+    right: 10%;
+    width: 700px;
+}
+
+#uno {
+    width: 150px;
+    height: 80px;
+    float: left;
+    position: relative;
+    margin-top: 4.5%;
+    margin-left: 3%;
+    //-webkit-animation: 2s bote infinite;
+}
+
+#dos {
+    width: 150px;
+    height: 80px;
+    float: left;
+    position: relative;
+    margin-top: 4.5%;
+    margin-left: 3%;
+    //-webkit-animation: 2s bote infinite;
+}
+
+#tres {
+    width: 150px;
+    height: 80px;
+    float: left;
+    position: relative;
+    margin-top: 4.5%;
+    margin-left: 3%;
+    //-webkit-animation: 2s bote infinite;
+}
+
+#cuatro {
+    width: 150px;
+    height: 80px;
+    float: left;
+    position: relative;
+    margin-top: 4.5%;
+    margin-left: 3%;    
+    //-webkit-animation: 2s bote infinite;
+}
+
+//@-webkit-keyframes bote {
+    20%, 50%, 80% {
+        -webkit-transform: translateY(0);
+      }
+
+    40% {
+        -webkit-transform: translateY(-85px);
+      }
+
+    65% {
+        -webkit-transform: translateY(-35px);
+      }
+}
+
+#texto1 {
+    font-size: 100px;
+}
+
+.imagen {
+    height: 100px;
+    width: 150px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+div.padre {
+    height: 108px;
+    position: relative;
+    border-top: 4px solid black;
+    border-bottom: 1px solid black;
+    transition: 1s;
+}
+
+div.padre:hover {
+    height: 108px;
+    position: relative;
+    border-top: 4px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+div#padre4 {
+    border-bottom: 4px solid black;
+}
+
+//#canvas {
+    float: left;
+    position: absolute;
+}
+
+//canvas {
+    margin-top: -20px;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+}
+
+span.obra {
+    height: 80px;
+    display: inline;
+    float: left;
+    font-size: 60px;
+    line-height: 45px;
+    left: 0;
+    position: absolute;
+}
+
+span#obra2 {
+    display: inline;
+    float: left;
+    font-size: 60px;
+    left: 0;
+    position: absolute;
+}
+
+span#obra3 {
+    display: inline;
+    float: left;
+    font-size: 60px;
+    left: 0;
+    position: absolute;
+}
+     
+.hijo {
+    width: 150px;
+    height: 60px;
+    left: 0; 
+    right: 0; 
+    margin: 0px auto;
+    position: absolute;
+}        
+            
+.option {
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+    height: 80px;
+    width: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    -webkit-animation: 2s bote infinite;
+    -webkit-animation: 2s fondo infinite;
+}
+
+.option:hover {
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+img.disco {
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    margin: 0px auto;
+    position: absolute;
+}
+
+.rotar {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-animation: infinite;
+    animation: infinite;
+    width: 400px;
+    height: 400px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    -webkit-animation: 10s rotar linear infinite;
+    animation: 10s rotar linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotar {
+    from {transform: rotate(0deg);
+    } to {transform: rotate(360deg);
+}} 
+
+@-webkit-keyframes rotar {
+    from {-webkit-transform: rotate(0deg);
+    } to {-webkit-transform: rotate(360deg);
+}}
+
+.parar {
+    width: 400px;
+    height: 400px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transition: 2s;
+}
+
+div.desplegable {
+    width: 100%;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+}
+
+div.desplegable img {
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+}
+
+div.flecha:after {
+    height: 101px;
+    width: auto;
+    
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    content: url("../rsc/img/desplegable/desplegar.gif");
+    float: right;
+}
+
+div.flecha:focus {
+    content: url("../rsc/img/desplegable/plegar.gif");
+}
+
+div.flecha img {
+    height: 100px;
+}

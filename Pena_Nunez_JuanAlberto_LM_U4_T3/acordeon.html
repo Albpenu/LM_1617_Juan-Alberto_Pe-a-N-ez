@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bsoundtrack (your OST repository!)</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body> 
+    <div id="logo">
+        <img src="rsc/img/logo/LOGO%20DEFINITIVO6.png" width="100%"/>
+    </div>
+<!--Menú-->
+    <nav>
+       <div id="menu">
+            <div id="uno">
+                <a  href="#inicio" id="ini" data-toggle="tooltip" data-placement="right" title="Inicio"><div class="option">
+                <img src="rsc/img/notas/Inicio.png" /></div></a>
+                
+            </div>
+            <div id="dos">
+                <a href="#catálogo" id="catalogo" data-toggle="tooltip" data-placement="top" title="Catálogo"><div class="option">
+                <img src="rsc/img/notas/Cat%C3%A1logo.png" /></div></a>
+            </div>
+            <div id="tres">
+                <div class="dropdown">
+                     <a href="#acceso" class="dropdown-toggle" data-toggle="tooltip" data-placement="top" title="Acceso" role="button" aria-haspopup="true" aria-expanded="false" id="acceso"><div class="option"><img src="rsc/img/notas/acceso.png" /></div><span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <br/>
+                    <form name="formulario" action="" method="get">
+                        <li><a class="opcion" href="#">Usuario: </a>
+                            <input class="usu" type="text" name="usuario" placeholder=";) Escribe aquí tu nombre de usuario..." />
+                        </li>
+                        <p></p>
+                        <li><a class="opcion" href="#">Contraseña: </a>
+                            <input class="contra" type="password" name="contraseña" placeholder=";) Escribe aquí tu contraseña..." />
+                        </li>
+                        <br/>
+                        <li role="separator" class="divider"></li>
+
+                            <input id="reg" class="btn btn-danger" type="button" name="registrarse" value="Registro" style="width: 100px; float: right;" />
+                            <input id="acc" class="btn btn-success" type="submit" name="acceder" value="Acceder" style="width: 100px; float: right;" />
+                     </form>
+                    </ul>
+
+                </div>
+            </div>    
+            <div id="cuatro">
+                <a  href="#comunidad" id="comunidad" data-toggle="tooltip" title="Comunidad"><div class="option">
+                <img src="rsc/img/notas/orquesta.png"/></div></a>
+            </div>
+        
+        </div>
+    </nav>
+
+<!--Catálogo-->
+<h1 id="texto1">Ultimas incorporaciones:</h1>
+    
+<div id="novedades">         
+
+    <div class="padre" id="padre1" style="cursor:pointer">
+        <!--<div id="canvas">
+            <canvas width=640 height=200></canvas>
+            </div>-->
+            <span class="obra">
+                <p>
+                "Inception (Origen)"<br>
+                Hans Zimmer
+                </p>
+            </span>
+        <div id="hijo1" class="hijo">
+                <a class="option">
+                    <img class="imagen" id="img1" src="rsc/img/inception_cinemagraph_by_imustbedead-d5s6se1.gif" title="Origen" />
+                </a>
+        </div>
+            <div class="flecha">
+                
+            </div>
+    </div>
+
+    
+    <div class="desplegable" style="cursor:pointer">
+        <img id="disco1" class="disco" src="rsc/img/discos/inception.png" />
+        
+        <label style="float: right; position: absolute; font-size: 40px;">
+            <u>Sinopsis:</u><br>
+        Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.
+        </label>
+    </div>
+    
+    <div class="padre" id="padre2" style="cursor:pointer">
+            <span class="obra" id="obra2">
+                <p>
+                "La naranja mecánica" 
+                <br>
+                Wendy Carlos
+                </p>
+            </span>
+        <div id="hijo2" class="hijo">
+                <a class="option">
+                    <img onclick="fimg2()" data-toggle="modal" data-target="#myModal2" class="imagen" id="img2" src="rsc/img/clockwork-orange.gif" title="La naranja mecánica" />
+                </a>
+        </div>
+            <div class="flecha">
+                
+            </div>
+    </div>
+
+    <div class="desplegable">
+        <img id="disco2" class="disco" src="rsc/img/discos/clock.jpg" />
+        <label style="float: right; position: absolute; font-size: 40px;">
+            <u>Sinopsis:</u><br>
+        Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.
+        </label>
+    </div>
+    
+    <div class="padre" id="padre3" style="cursor:pointer">
+            <span class="obra" id="obra3">
+                <p>
+                "Batman. El caballero oscuro"
+                <br>
+                Hans Zimmer
+                </p>
+            </span>
+        <div id="hijo3" class="hijo">
+                <a class="option">
+                    <img onclick="fimg3()" data-toggle="modal" data-target="#myModal3" class="imagen" id="img3" src="rsc/img/dark-knight.gif" title="Batman. El caballero oscuro" />
+                </a>
+        </div>
+            <div class="flecha">
+                
+            </div>
+    </div>
+
+    <div class="desplegable">
+        <img id="disco3" class="disco" src="rsc/img/discos/batman.png" />
+        <label style="float: right; position: absolute; font-size: 40px;">
+            <u>Sinopsis:</u><br>
+        Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.
+        </label>
+    </div>
+    
+    <div class="padre" id="padre4" style="cursor:pointer">          <span class="obra">
+                <p>
+                "2001: Una odisea del espacio" 
+                <br>
+                Strauss
+                </p>
+            </span>
+        <div id="hijo4" class="hijo">
+                <a class="option">
+                    <img onclick="fimg4()" data-toggle="modal" data-target="#myModal3" class="imagen" id="img4" src="rsc/img/kubrick-cinemagraphs-2001-space-odyssey-1.gif" title="2001: Odisea en el espacio" />
+                </a>           
+        </div>
+            <div class="flecha">
+                
+            </div>
+    </div>
+    
+    <div class="desplegable">
+        <img id="disco4" class="disco" src="rsc/img/discos/2001.png" />
+        <label style="float: right; position: absolute; font-size: 40px;">
+            <u>Sinopsis:</u><br>
+        Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.
+        </label>
+    </div>
+
+</div>
+
+<script >
+    //ACORDEÓN
+     $("div#novedades > div:nth-child(2)").hide();
+     $("div#novedades > div:nth-child(4)").hide();
+     $("div#novedades > div:nth-child(6)").hide();
+     $("div#novedades > div:last-child").hide();
+    
+    $("div#novedades > div:first-child").click( function(){
+        $("div#novedades > div:nth-child(2)").animate ({
+            height: "toggle"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(4)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(6)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:last-child").animate ({
+            height: "hide"
+        }, 1500);
+        
+        this.classList.toggle("active");
+    });
+    
+    $("div#novedades > div:nth-child(3)").click( function(){
+        $("div#novedades > div:nth-child(4)").animate ({
+            height: "toggle"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(2)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(6)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:last-child").animate ({
+            height: "hide"
+        }, 1500);
+    });
+    
+    $("div#novedades > div:nth-child(5)").click( function(){
+        $("div#novedades > div:nth-child(6)").animate ({
+            height: "toggle"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(2)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(4)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:last-child").animate ({
+            height: "hide"
+        }, 1500);
+    });
+    
+    $("div#novedades > div:nth-child(7)").click( function(){
+        $("div#novedades > div:last-child").animate ({
+            height: "toggle"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(2)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(4)").animate ({
+            height: "hide"
+        }, 1500);
+        
+        $("div#novedades > div:nth-child(6)").animate ({
+            height: "hide"
+        }, 1500);
+    });
+    
+    //Para reproductor y ecualizador:
+    //DISCO 1 ¡NO ME LO TENGA MUY EN CUENTA, POR FAVOR,
+    //NO ME HA DADO TIEMPO A AÑADIR TODO LO QUE QUERÍA 
+    //PONER EN ESTA PÁGINA WEB QUE ESTOY CREANDO. UN SALUDO, JUAN DIEGO!
+    $(document).ready(function (){
+       $("img#disco1").toggle (function(){
+           $(this).addClass("rotar");
+       }, function(){
+           $(this).removeClass("rotar").addClass("parar");
+       });  
+    });
+    //Disco 2
+    $(document).ready(function (){
+       $("img#disco2").toggle (function(){
+           $(this).addClass("rotar");
+       }, function(){
+           $(this).removeClass("rotar").addClass("parar");
+       });  
+    });
+    //Disco 3
+    $(document).ready(function (){
+       $("img#disco3").toggle (function(){
+           $(this).addClass("rotar");
+       }, function(){
+           $(this).removeClass("rotar").addClass("parar");
+       });  
+    });
+    //Disco 4
+    $(document).ready(function (){
+       $("img#disco4").toggle (function(){
+           $(this).addClass("rotar");
+       }, function(){
+           $(this).removeClass("rotar").addClass("parar");
+       });  
+    });
+    
+    
+</script>
+</body>
+
+</html>
