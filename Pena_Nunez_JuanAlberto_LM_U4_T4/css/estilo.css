@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 0px auto;
+    width: 400px;
+    height: 600px;
+}
+
+.nav1 {
+    margin-top: 20px;
+    height: 20px;
+    width: 400px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu1 {
+    height: 20px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: red;
+    display: inline-block;
+    float: left;
+}
+
+.nav2 { 
+    height: 40px;
+    width: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu2 {
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.nav3 {
+    margin-top: -20px;
+    height: 40px;
+    width: 400px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu3 {
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: green;
+    float: left;
+    
+}
