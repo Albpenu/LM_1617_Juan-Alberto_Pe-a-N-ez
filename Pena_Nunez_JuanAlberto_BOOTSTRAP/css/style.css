@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ADA6A0;
+}
+
+header.jumbotron {
+    background: linear-gradient(to right, #ADA6A0, #C6BEBB, #F0ECEB, #C6BEBB, #ADA6A0); 
+    height: 170px; 
+    margin-top:-60px;
+}
+
+h1.text-center {
+    color: #B5B4B2; 
+    font-family: "rockwell"; 
+    font-size: 80px;
+}
+
+#barradenav {
+    background-color: white;  
+    padding-top: 5px; 
+    padding-bottom: 1px; 
+    margin-top:-30px; 
+    font-size: 20px; 
+    font-family: "rockwell";
+    box-shadow: 5px -5px 5px #888888;
+}
+
+a.enlace {
+    text-decoration: none; 
+    color: black;
+}
+
+input {
+    border: none; 
+    background-color: rgb(247,247,247);
+}
+
+button {
+    border: none; 
+    background-color: rgb(249,249,249);
+}
+
+span {
+    color: #C1C1C1;
+}
+
+#city {
+    border: 10px solid white; 
+    margin: 0px auto;  
+    margin-top: 15px; 
+    background-image: url(../rsc/img/imagen.jpg); 
+    background-repeat: no-repeat; 
+    height:600px; 
+    background-size: 100% 100%;
+    box-shadow: 5px -5px 5px #888888;
+}
+
+#columns {
+    margin-top: 15px;
+    padding: 0;
+}
+
+#columna1 {
+    padding-top: 10px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background-color: white; 
+    margin-bottom: 5px;
+    box-shadow: 5px -5px 5px #888888;
+    margin-left: -15px;
+}
+
+#columna2 {
+    padding-top: 10px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background-color: white; 
+    margin-bottom: 5px;
+    box-shadow: 5px -5px 5px #888888;
+    margin-left: -10px;
+}
+
+#columna3 {
+    padding-top: 10px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background-color: white; 
+    margin-bottom: 5px;
+    box-shadow: 5px -5px 5px #888888; 
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#columna4 {
+    padding-top: 10px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background-color: white; 
+    margin-bottom: 5px;
+    box-shadow: 5px -5px 5px #888888;
+    margin-right: -15px;
+}
+
+img {
+    width: 100%; 
+    height: 125px;
+}
+
+.latin2 {
+    margin-top: 20px; 
+    text-indent: 120px; 
+    font-size: 10px;
+}
+
+.latin3 {
+    margin-top: 20px; 
+    text-indent: 130px; 
+    font-size: 10px;
+}
+
+.latin {
+    margin-top: 20px; 
+    text-indent: 125px; 
+    font-size: 10px;
+}
