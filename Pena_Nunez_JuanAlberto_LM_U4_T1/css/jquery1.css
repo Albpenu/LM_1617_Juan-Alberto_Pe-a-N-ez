@@ -1,0 +1,14 @@
+.headertext {
+    color: white;
+    background-color: black;
+}
+
+.impar {
+    background-color:grey;
+    color: black;
+}
+
+.par {
+    background-color: grey;
+    color: white;
+}

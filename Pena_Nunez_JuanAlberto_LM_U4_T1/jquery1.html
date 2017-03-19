@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href=css/jquery1.css>
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+    <h1>ENCABEZADO</h1>
+    <table id="timetable" border="1px solid black">
+        <tr>
+            <th></th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIÉRCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+        </tr>
+        
+        <tr>
+            <th>8:15-9:15</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th>9:15-10:15</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th>10:15-11:15</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th>11:15-11:45</th>
+            <th colspan="5">RECREO</th>
+        </tr>
+        
+        <tr>
+            <th>11:45-12:45</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th>12:45-13:45</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th>13:45-14:45</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <br/>
+    <table id="students" border="1px solid black">
+        
+        <tr>
+            <th>Nombre del alumno</th>
+        </tr>
+        
+        <tr>
+            <td>Pedro Jiménez Santos</td>
+        </tr>
+        
+        <tr>
+            <td>Carlos Monedero Ortíz</td>
+        </tr>
+        
+        <tr>
+            <td>Óscar Menéndez Pelayo</td>
+        </tr>
+        
+        <tr>
+            <td>Arturo Pérez Reverte</td>
+        </tr>
+        
+        <tr>
+            <td>John Forbes Nash</td>
+        </tr>
+        
+        <tr>
+            <td>Paul Pierce</td>
+        </tr>
+        
+        <tr>
+            <td>Bill Gates</td>
+        </tr>
+        
+        <tr>
+            <td>Linux Torvald</td>
+        </tr>
+        
+        <tr>
+            <td>Carlos Arguiñano</td>
+        </tr>
+    </table>
+    
+    <p  class="show">Hola, holita,</p>
+    <p>hola,</p>
+    <p class="show">vecinito</p>
+    <p>- Flanders</p>
+    
+    <script>
+        $(function() {
+            $("h1").addClass("headertext");  
+            $("#timetable tr:first-child").css("background-color","red");
+            $("#timetable tr:first-child").css("color","white");
+            $("#students tr:odd").addClass("impar");
+            $("#students tr:even").addClass("par");
+            $("p").hide();
+            $(".show").show();
+        });
+    </script>
+</body>
+</html>
